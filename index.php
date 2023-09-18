@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
 ?>
 <?php include 'inc/header.php' ?>
 
-<img src="/img/logo.png" class="w-25 mb-3" alt="">
+<img src="/Feedback-Project/img/logo-social.png" class="w-25 mb-3" alt="logo">
 <h2>Feedback</h2>
 <p class="lead text-center">Leave feedback for Feedback Project</p>
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST" class="mt-4 w-75">
