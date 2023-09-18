@@ -1,9 +1,9 @@
-<?php include 'inc/header.php' ?>
-
+<?php include 'config/database.php'; ?>
 <?php
 $sql = 'SELECT * FROM feedback_table';
 $result = $conn->query($sql);
 ?>
+<?php include 'inc/header.php' ?>
 
     <h2>Feedback</h2>
 
